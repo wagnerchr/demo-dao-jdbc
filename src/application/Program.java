@@ -5,8 +5,8 @@ package application;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import module.entities.Department;
-import module.entities.Seller;
+import model.entities.Department;
+import model.entities.Seller;
 
 public class Program {
 
@@ -17,9 +17,7 @@ public class Program {
 		
 		Seller seller = new Seller(21, "Wagner", "wagner@email", new Date(), 1000.0, obj);
 				
-		
 		System.out.println(seller);
-		obj.setName("Christos");
 		System.out.println(obj);
 		
 	}
